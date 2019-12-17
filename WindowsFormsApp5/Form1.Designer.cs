@@ -206,7 +206,7 @@
             // idLabel
             // 
             idLabel.AutoSize = true;
-            idLabel.Location = new System.Drawing.Point(31, 43);
+            idLabel.Location = new System.Drawing.Point(356, 238);
             idLabel.Name = "idLabel";
             idLabel.Size = new System.Drawing.Size(20, 13);
             idLabel.TabIndex = 1;
@@ -215,7 +215,7 @@
             // idTextBox
             // 
             this.idTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tableBindingSource, "Id", true));
-            this.idTextBox.Location = new System.Drawing.Point(67, 40);
+            this.idTextBox.Location = new System.Drawing.Point(392, 235);
             this.idTextBox.Name = "idTextBox";
             this.idTextBox.Size = new System.Drawing.Size(100, 22);
             this.idTextBox.TabIndex = 2;
@@ -223,7 +223,7 @@
             // вроLabel
             // 
             вроLabel.AutoSize = true;
-            вроLabel.Location = new System.Drawing.Point(31, 71);
+            вроLabel.Location = new System.Drawing.Point(356, 266);
             вроLabel.Name = "вроLabel";
             вроLabel.Size = new System.Drawing.Size(30, 13);
             вроLabel.TabIndex = 3;
@@ -232,7 +232,7 @@
             // вроTextBox
             // 
             this.вроTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tableBindingSource, "вро", true));
-            this.вроTextBox.Location = new System.Drawing.Point(67, 68);
+            this.вроTextBox.Location = new System.Drawing.Point(392, 263);
             this.вроTextBox.Name = "вроTextBox";
             this.вроTextBox.Size = new System.Drawing.Size(100, 22);
             this.вроTextBox.TabIndex = 4;
